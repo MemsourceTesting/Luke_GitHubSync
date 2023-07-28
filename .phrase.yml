@@ -2,16 +2,11 @@ phrase:
   project_id: a6b9c0fcc6018ece2aca977dd4fedf20
   push:
     sources:
-    - file: ./locales/en.json
+    - file: ./<locale_name>.json
       params:
         file_format: simple_json
-        locale_id: en
-        autotranslate: true
-        format_options:
-          enable_pluralization: false
   pull:
     targets:
-    - file: ./locales/cs.json
+    - file: ./<locale_name>.json
       params:
         file_format: simple_json
-        locale_id: cs
