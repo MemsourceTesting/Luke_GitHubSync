@@ -1,11 +1,11 @@
 phrase:
-  project_id: e81234013bf881d754b2535265954e36
+  project_id: a6b9c0fcc6018ece2aca977dd4fedf20
   push:
     sources:
-      - file: ./i18n/en_US.csv
+      - file: ./en_US.csv
         params:
           file_format: csv
-          locale_id: 10b12abd2aece1b149d4051b133346f4
+          locale_id: 8e6ad4895a0ac1b62c0c14991fb35143
           locale_mapping:
             en-US: 1
           format_options:
