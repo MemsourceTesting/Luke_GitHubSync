@@ -4,7 +4,7 @@ phrase:
     sources:
       - file: ./en.json
         params:
-          file_format: json
+          file_format: simple_json
           locale_id: 8e6ad4895a0ac1b62c0c14991fb35143
           tags: core
 
