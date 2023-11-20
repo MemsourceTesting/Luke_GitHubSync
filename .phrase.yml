@@ -16,6 +16,14 @@ phrase:
 
   pull:
     targets:
-      - file: ./<locale_name>.json
+      - file: ./locales/cs_code.json
         params:
-          file_format: csv
+          file_format: simple_json
+          locale_id: d47d6ded473e0f2d363e384e4ca2c76b
+          tags: code
+
+      - file: ./locales/cs_core.json
+        params:
+          file_format: simple_json
+          locale_id: d47d6ded473e0f2d363e384e4ca2c76b
+          tags: core
