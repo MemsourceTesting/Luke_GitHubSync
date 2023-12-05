@@ -2,7 +2,7 @@ phrase:
   project_id: a6b9c0fcc6018ece2aca977dd4fedf20
   push:
     sources:
-      - file: ./<locale_name>.json
+      - file: ./app/<locale_name>.json
         params:
           autotranslate: true
           update_translations: true
