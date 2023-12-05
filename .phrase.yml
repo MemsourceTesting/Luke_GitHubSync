@@ -2,28 +2,11 @@ phrase:
   project_id: a6b9c0fcc6018ece2aca977dd4fedf20
   push:
     sources:
-      - file: ./en_core.json
+      - file: ./<locale_name>.json
         params:
-          file_format: simple_json
-          locale_id: 8e6ad4895a0ac1b62c0c14991fb35143
-          tags: core
-
-      - file: ./en_code.json
-        params:
-          file_format: simple_json
-          locale_id: 8e6ad4895a0ac1b62c0c14991fb35143
-          tags: code
+          autotranslate: true
+          update_translations: true
 
   pull:
     targets:
-      - file: ./locales/cs_code.json
-        params:
-          file_format: simple_json
-          locale_id: d47d6ded473e0f2d363e384e4ca2c76b
-          tags: code
-
-      - file: ./locales/cs_core.json
-        params:
-          file_format: simple_json
-          locale_id: d47d6ded473e0f2d363e384e4ca2c76b
-          tags: core
+      - file: ./app/i18n/locales/<locale_name>/translation.json
