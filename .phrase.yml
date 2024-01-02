@@ -8,3 +8,4 @@ phrase:
           locale_id: 8e6ad4895a0ac1b62c0c14991fb35143
           autotranslate: false
           update_translations: true
+          skip_unverification: false
