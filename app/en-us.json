@@ -3,6 +3,6 @@
 "icu": "{numPersons, plural, =0 {no persons} =1 {one person} other {# persons}}",
 "more": "one more key",
 "another": "another key",
-"new_one": "IS THIS NOW UNVERIFIED?",
+"new_one": "Finally unverification??",
 "sync_test": "I am testing if this works"
 }
