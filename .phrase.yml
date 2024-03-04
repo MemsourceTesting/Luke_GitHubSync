@@ -7,3 +7,9 @@ phrase:
           file_format: simple_json
           locale_id: 8e6ad4895a0ac1b62c0c14991fb35143
           update_translations: true
+  pull:
+    targets:
+    - file: ./translated/<locale_code>.json
+      params:
+        file_format: nested_json
+      
