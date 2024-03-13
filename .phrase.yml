@@ -2,9 +2,16 @@ phrase:
   project_id: a6b9c0fcc6018ece2aca977dd4fedf20
   push:
     sources:
-      - file: ./app/<tag>.json
+      - file: ./app/<tag>_<locale_code>.json
         params:
           file_format: simple_json
           locale_id: 8e6ad4895a0ac1b62c0c14991fb35143
+          update_translations: true
+          tags: myself, yourself   
+          
+      - file: ./app/<tag>_<locale_code>.json
+        params:
+          file_format: simple_json
+          locale_id: 38a7d9190795c6f1ed399856d6a84734
           update_translations: true
           tags: myself, yourself   
