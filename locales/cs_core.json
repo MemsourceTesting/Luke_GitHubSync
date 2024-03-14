@@ -1,7 +1,0 @@
-{
-  "another": "další klíč",
-  "hello.world": "Dobrý den, SVĚT!",
-  "icu": "{numPersons, plural, =0 {no persons} =1 {one person} other {# persons}}",
-  "more": "ještě jeden klíč",
-  "new_one": "ještě jeden klíč"
-}
