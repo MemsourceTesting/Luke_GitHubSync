@@ -1,8 +1,15 @@
 {
-"first": "I am writing my new file!",
-"second": "I need to trigger the start?!",
-"third": "I am testing this for the last time!",
-"forth": "This one is for a new job",
-"fifth": "And it would be used in the CP in TMS",
-"sixth": "Let me see - I know you know I know."
+  "another": "another key",
+  "hello.world": "Hello WORLD!",
+  "icu": "{numPersons, plural, =0 {no persons} =1 {one person} other {# persons}}",
+  "indeed": "It does, yes, indeed!",
+  "interesting": "Does this really work?",
+  "more": "one more key",
+  "new_day": "Another day, another dollar!",
+  "new_key": "This is brand new thing",
+  "new_key2": "This is brand new thing.",
+  "new_one": "Finally unverification??",
+  "one_more_run": "Run Forest!",
+  "sync_test": "I am testing if this works",
+  "testing": "New approach"
 }
