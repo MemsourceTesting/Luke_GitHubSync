@@ -1,0 +1,10 @@
+{
+  "another": "another key",
+  "hello": {
+    "world": "Hello WORLD!"
+  },
+  "icu": "{numPersons, plural, =0 {no persons} =1 {one person} other {# persons}}",
+  "more": "one more key",
+  "new_one": "Finally unverification??",
+  "sync_test": "I am testing if this works"
+}
