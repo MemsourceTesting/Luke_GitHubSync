@@ -1,8 +1,0 @@
-{
-"hello.world": "Hello WORLD!",
-"icu": "{numPersons, plural, =0 {no persons} =1 {one person} other {# persons}}",
-"more": "one more key",
-"another": "another key",
-"new_one": "one more key",
-"sync_test": "I am testing if this works"
-}
