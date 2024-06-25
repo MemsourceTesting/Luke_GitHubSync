@@ -4,7 +4,7 @@ phrase:
 
   push:
     sources:
-      - file: ./app/
+      - file: ./app/myself_en-US.json
         params:
           file_format: simple.json
           locale_id: en
