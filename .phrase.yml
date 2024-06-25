@@ -1,10 +1,9 @@
 phrase:
   project_id: e81234013bf881d754b2535265954e36
-  file_format: simple_json
 
   push:
     sources:
-      - file: ./app/myself_en-US.json
+      - file: ./source.json
         params:
           file_format: simple_json
           locale_id: en
