@@ -13,9 +13,9 @@ phrase:
       - file: ./cs-CZ.json
         params:
           file_format: simple_json
-          locale_id: cs-CZ
+          locale_id: d47d6ded473e0f2d363e384e4ca2c76b
 
       - file: ./en-GB.json
         params:
           file_format: simple_json
-          locale_id: en-GB
+          locale_id: be05e810e5e60d2a4c36fc2865efda8b
