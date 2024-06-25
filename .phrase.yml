@@ -10,6 +10,12 @@ phrase:
 
   pull:
     targets:
-      - file: ./<locale_name>.json
+      - file: ./cs-CZ.json
         params:
           file_format: simple_json
+          locale_id: cs-CZ
+
+      - file: ./en-GB.json
+        params:
+          file_format: simple_json
+          locale_id: en-GB
