@@ -10,9 +10,9 @@ phrase:
 
   pull:
     targets:
-      - file: ./translations.json
+      - file: ./translations.properties
         params:
-          file_format: i18next
+          file_format: properties
           locale_id: en
           format_options:
-              nesting: false
+            omit_separator_space: true
