@@ -5,14 +5,14 @@ phrase:
     sources:
       - file: ./source.json
         params:
-          file_format: i18next_4
+          file_format: i18next
           locale_id: en
 
   pull:
     targets:
       - file: ./translations.json
         params:
-          file_format: i18next_4
+          file_format: i18next
           locale_id: en
           format_options:
               nesting: false
