@@ -10,9 +10,9 @@ phrase:
 
   pull:
     targets:
-      - file: ./translations.properties
+      - file: ./translations.xlf
         params:
-          file_format: properties
+          file_format: xlf
           locale_id: en
           format_options:
-            omit_separator_space: true
+            include_translation_state: true
