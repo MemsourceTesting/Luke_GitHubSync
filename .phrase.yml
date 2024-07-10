@@ -1,27 +1,18 @@
 phrase:
+  project_id: 67c87c002493be13b0db9964ce093fed
 
   push:
     sources:
-      - file: ./source1.json
-        project_id: a6b9c0fcc6018ece2aca977dd4fedf20
+      - file: ./source.json
         params:
-          file_format: simple_json
-          locale_id: en
-
-      - file: ./source2.json
-        project_id: ff211a16a17a15f9364185521542b784
-        params:
-          file_format: simple_json
+          file_format: i18next_4
           locale_id: en
 
   pull:
     targets:
-      - file: ./<locale_code>.json
-        project_id: ff211a16a17a15f9364185521542b784
+      - file: ./translations.json
         params:
-          file_format: simple_json
-
-      - file: ./<locale_code>.json
-        project_id: a6b9c0fcc6018ece2aca977dd4fedf20
-        params:
-          file_format: simple_json
+          file_format: i18next_4
+          locale_id: en
+          format_options:
+              nesting: false
