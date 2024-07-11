@@ -1,18 +1,1 @@
-phrase:
-  project_id: c0918e2795815f42683cb2503f4bd3ef
 
-  push:
-    sources:
-      - file: ./xlf.xlf
-        params:
-          file_format: xlf
-          locale_id: en
-          format_options:
-            ignore_source_translations: true
-
-  pull:
-    targets:
-      - file: ./translated.strings
-        params:
-          file_format: strings
-          locale_id: zh
