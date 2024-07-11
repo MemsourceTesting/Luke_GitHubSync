@@ -10,12 +10,9 @@ phrase:
           format_options:
             ignore_source_translations: true
 
-  pull:
-    targets:
-      - file: ./android.xml
-        params:
-          file_format: xml
-          locale_id: 25a5163d3fbec1066bdd10779ab808ae
-          format_options:
-            convert_placeholder: true
-            indent_size: 20
+pull:
+  targets:
+    - file: ./androidTranslations.xml
+      params:
+        file_format: xml
+        locale_id: en
