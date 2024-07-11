@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="global" datatype="plaintext" source-language="en" target-language="cs">
+    <body>
+      <trans-unit id="action_alert_archive_form_success">
+        <source xml:lang="en">Alert archived</source>
+        <target xml:lang="cs">Upozornění archivováno</target>
+      </trans-unit>
+      <trans-unit id="action_alert_archive_same_type_form_success">
+        <source xml:lang="en">Events of the same type archived</source>
+        <target xml:lang="cs">Události stejného typu archivovány</target>
+      </trans-unit>
+      <trans-unit id="action_alert_unarchive_form_success">
+        <source xml:lang="en">Event unarchived</source>
+        <target xml:lang="cs">Archivace události byla zrušena</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
