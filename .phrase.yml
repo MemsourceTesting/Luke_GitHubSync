@@ -1,5 +1,5 @@
 phrase:
-  project_id: 67c87c002493be13b0db9964ce093fed
+  project_id: c0918e2795815f42683cb2503f4bd3ef
 
   push:
     sources:
@@ -12,9 +12,10 @@ phrase:
 
   pull:
     targets:
-      - file: ./xlf_trn.xlf
+      - file: ./android.xml
         params:
-          file_format: xlf
+          file_format: xml
           locale_id: en
           format_options:
-            include_translation_state: true
+            convert_placeholder: true
+            indent_size: 20
