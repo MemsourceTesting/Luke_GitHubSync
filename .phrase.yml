@@ -10,8 +10,8 @@ phrase:
           format_options:
             ignore_source_translations: true
 
-pull:
-  targets:
+  pull:
+    targets:
       - file: ./translated.strings
         params:
           file_format: strings
