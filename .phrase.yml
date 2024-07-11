@@ -15,7 +15,7 @@ phrase:
       - file: ./android.xml
         params:
           file_format: xml
-          locale_id: en
+          locale_id: 25a5163d3fbec1066bdd10779ab808ae
           format_options:
             convert_placeholder: true
             indent_size: 20
