@@ -14,6 +14,5 @@ pull:
   targets:
       - file: ./translated.strings
         params:
-          locale_id: zh
           file_format: strings
-          encoding: UTF-16BE
+          locale_id: zh
