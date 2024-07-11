@@ -12,7 +12,8 @@ phrase:
 
 pull:
   targets:
-    - file: ./androidTranslations.xml
-      params:
-        file_format: xml
-        locale_id: en
+      - file: ./translated.strings
+        params:
+          locale_id: zh
+          file_format: strings
+          encoding: UTF-16BE
