@@ -3,14 +3,14 @@ phrase:
 
   push:
     sources:
-      - file: ./source.json
+      - file: ./xlf.xlf
         params:
-          file_format: i18next
+          file_format: xlf
           locale_id: en
 
   pull:
     targets:
-      - file: ./translations.xlf
+      - file: ./xlf_trn.xlf
         params:
           file_format: xlf
           locale_id: en
