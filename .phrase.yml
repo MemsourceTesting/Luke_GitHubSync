@@ -4,10 +4,10 @@ phrase:
 
   push:
     sources:
-      - file: ./en-translations.arb
+      - file: ./en.json
         params:
-          file_format: arb
-          locale_id: en-US
+          file_format: simple_json
+          locale_id: en
 
   pull:
     targets:
