@@ -11,8 +11,9 @@ phrase:
 
   pull:
     targets:
-      - file: ./translated.strings
+      - file: ./nesting.json
         params:
-          locale_id: zh
-          file_format: strings
-          encoding: UTF-16BE
+          locale_id: en
+          file_format: i18next_4  
+          format_options:
+            nesting: false
