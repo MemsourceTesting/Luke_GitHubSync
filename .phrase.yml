@@ -1,20 +1,13 @@
 phrase:
-
+  project_id: 67c87c002493be13b0db9964ce093fe
+  
   push:
     sources:
       - file: ./en.json
-        project_id: 67c87c002493be13b0db9964ce093fed
         params:
           file_format: simple_json
           locale_id: en
-          autotranslate: true
-
-      - file: ./fixed.json
-        project_id: cbfcfe97770fe0e5324c21c79bc2234e
-        params:
-          file_format: i18next
-          locale_id: en
-          autotranslate: true        
+          autotranslate: true 
 
   pull:
     targets:
