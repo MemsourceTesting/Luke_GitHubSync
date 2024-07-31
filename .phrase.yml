@@ -19,6 +19,7 @@ phrase:
   pull:
     targets:
       - file: ./support/translations_<locale_code>.xlf
+        project_id: 67c87c002493be13b0db9964ce093fed
         params:
           file_format: xlf 
           format_options:
