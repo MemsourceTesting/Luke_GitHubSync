@@ -35,6 +35,10 @@
         <source xml:lang="en-GB">Action type...</source>
         <target xml:lang="en-GB" state="signed-off">Action type...</target>
       </trans-unit>
+      <trans-unit id="action_type_option_patient_contact_label_chaings">
+        <source xml:lang="en-GB">source translation created</source>
+        <target xml:lang="en-GB" state="signed-off">source translation created</target>
+      </trans-unit>
       <trans-unit id="action_type_option_patient_review_request_label">
         <source xml:lang="en-GB">Review</source>
         <target xml:lang="en-GB" state="signed-off">Review</target>
