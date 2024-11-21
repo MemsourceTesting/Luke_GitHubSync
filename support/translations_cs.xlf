@@ -1,10 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file original="global" datatype="plaintext" source-language="en" target-language="cs">
+  <file original="global" datatype="plaintext" source-language="en-GB" target-language="cs">
     <body>
-      <trans-unit id="key_one">
-        <source xml:lang="en">This is my source</source>
-        <target xml:lang="cs" state="translated">Toto je můj zdroj</target>
+      <trans-unit id="action_alert_archive_form_success_change" maxwidth="10" size-unit="char">
+        <source xml:lang="en-GB">Alert archive</source>
+        <target xml:lang="cs" state="signed-off">ůakjdůlůalasdfasd</target>
+        <note>Create description</note>
+      </trans-unit>
+      <trans-unit id="action_alert_unarchive_form_success">
+        <source xml:lang="en-GB">Event unarchived</source>
+        <target xml:lang="cs" state="translated">Archivace události byla zrušena</target>
+      </trans-unit>
+      <trans-unit id="action_ep_review_form_success">
+        <source xml:lang="en-GB">Review request sent</source>
+        <target xml:lang="cs" state="translated">Žádost o kontrolu byla odeslána</target>
+      </trans-unit>
+      <trans-unit id="action_state_option_closed_label">
+        <source xml:lang="en-GB">Closed</source>
+        <target xml:lang="cs" state="translated">Zavřeno</target>
+      </trans-unit>
+      <trans-unit id="action_state_option_default_label">
+        <source xml:lang="en-GB">Action state...
+
+</source>
+        <target xml:lang="cs" state="translated">Stav akce...</target>
+      </trans-unit>
+      <trans-unit id="action_state_option_opened_label" maxwidth="11" size-unit="char">
+        <source xml:lang="en-GB">In progressůljůljl</source>
+        <target xml:lang="cs" state="translated">Probíhá</target>
+      </trans-unit>
+      <trans-unit id="action_type_option_default_label">
+        <source xml:lang="en-GB">Action type...</source>
+        <target xml:lang="cs" state="translated">Typ akce...</target>
+      </trans-unit>
+      <trans-unit id="action_type_option_patient_review_request_label">
+        <source xml:lang="en-GB">Review</source>
+        <target xml:lang="cs" state="signed-off">Revize</target>
+      </trans-unit>
+      <trans-unit id="action_type_option_patient_summon_label">
+        <source xml:lang="en-GB">Appointment</source>
+        <target xml:lang="cs" state="signed-off">Apoointment</target>
+      </trans-unit>
+      <trans-unit id="key_two">
+        <source xml:lang="en-GB">This is a repo sync test</source>
+        <target xml:lang="cs" state="translated">Toto je test repo synchronizace</target>
+      </trans-unit>
+      <trans-unit id="untitledpage11jzley">
+        <source xml:lang="en-GB">Celebrating International Women’s Day</source>
+        <target xml:lang="cs" state="translated">Oslava Mezinárodního dne žen</target>
+      </trans-unit>
+      <trans-unit id="untitledpage1p9gbr3">
+        <source xml:lang="en-GB">We fill the gaps when we stand as a whole.</source>
+        <target xml:lang="cs" state="translated">Vyplňujeme mezery, když stojíme jako celek.</target>
       </trans-unit>
     </body>
   </file>
