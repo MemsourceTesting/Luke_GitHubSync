@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file original="global" datatype="plaintext" source-language="en" target-language="sk">
+  <file original="global" datatype="plaintext" source-language="en-GB" target-language="sk">
     <body>
-      <trans-unit id="key_one">
-        <source xml:lang="en">This is my source</source>
-        <target xml:lang="sk" state="translated">Toto je môj zdroj</target>
+      <trans-unit id="action_alert_archive_form_success_change" maxwidth="10" size-unit="char">
+        <source xml:lang="en-GB">Alert archive</source>
+        <target xml:lang="sk" state="translated">Upozornenie bolo archivované</target>
+        <note>Create description</note>
+      </trans-unit>
+      <trans-unit id="action_alert_unarchive_form_success">
+        <source xml:lang="en-GB">Event unarchived</source>
+        <target xml:lang="sk" state="translated">Archivácia udalosti bola zrušená</target>
+      </trans-unit>
+      <trans-unit id="action_ep_review_form_success">
+        <source xml:lang="en-GB">Review request sent</source>
+        <target xml:lang="sk" state="translated">Žiadosť o kontrolu bola odoslaná</target>
+      </trans-unit>
+      <trans-unit id="action_state_option_closed_label">
+        <source xml:lang="en-GB">Closed</source>
+        <target xml:lang="sk" state="translated">ZATVORENÉ</target>
+      </trans-unit>
+      <trans-unit id="key_two">
+        <source xml:lang="en-GB">This is a repo sync test</source>
+        <target xml:lang="sk" state="translated">Toto je test repo synchronizácie</target>
+      </trans-unit>
+      <trans-unit id="untitledpage11jzley">
+        <source xml:lang="en-GB">Celebrating International Women’s Day</source>
+        <target xml:lang="sk" state="translated">Oslavujeme Medzinárodný deň žien</target>
+      </trans-unit>
+      <trans-unit id="untitledpage1p9gbr3">
+        <source xml:lang="en-GB">We fill the gaps when we stand as a whole.</source>
+        <target xml:lang="sk" state="translated">Medzery vypĺňame, keď stojíme ako celok.</target>
       </trans-unit>
     </body>
   </file>
