@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file original="global" datatype="plaintext" source-language="en" target-language="hu">
+  <file original="global" datatype="plaintext" source-language="en-GB" target-language="hu">
     <body>
-      <trans-unit id="key_one">
-        <source xml:lang="en">This is my source</source>
-        <target xml:lang="hu" state="translated">Ez az én forrásom</target>
+      <trans-unit id="key_two">
+        <source xml:lang="en-GB">This is a repo sync test</source>
+        <target xml:lang="hu" state="translated">Ez egy repo szinkronizálási teszt</target>
+      </trans-unit>
+      <trans-unit id="untitledpage11jzley">
+        <source xml:lang="en-GB">Celebrating International Women’s Day</source>
+        <target xml:lang="hu" state="translated">A nemzetközi nőnap ünneplése</target>
+      </trans-unit>
+      <trans-unit id="untitledpage1p9gbr3">
+        <source xml:lang="en-GB">We fill the gaps when we stand as a whole.</source>
+        <target xml:lang="hu" state="translated">A hiányokat akkor töltjük be, ha egészben állunk.</target>
       </trans-unit>
     </body>
   </file>

@@ -1,10 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file original="global" datatype="plaintext" source-language="en" target-language="pl">
+  <file original="global" datatype="plaintext" source-language="en-GB" target-language="pl">
     <body>
-      <trans-unit id="key_one">
-        <source xml:lang="en">This is my source</source>
-        <target xml:lang="pl" state="translated">To jest moje źródło</target>
+      <trans-unit id="action_alert_archive_form_success_change" maxwidth="10" size-unit="char">
+        <source xml:lang="en-GB">Alert archive</source>
+        <target xml:lang="pl" state="translated">Alert zarchiwizowany</target>
+        <note>Create description</note>
+      </trans-unit>
+      <trans-unit id="action_alert_unarchive_form_success">
+        <source xml:lang="en-GB">Event unarchived</source>
+        <target xml:lang="pl" state="translated">Wydarzenie nie zostało zarchiwizowane</target>
+      </trans-unit>
+      <trans-unit id="action_ep_review_form_success">
+        <source xml:lang="en-GB">Review request sent</source>
+        <target xml:lang="pl" state="translated">Prośba o sprawdzenie została wysłana</target>
+      </trans-unit>
+      <trans-unit id="action_state_option_closed_label">
+        <source xml:lang="en-GB">Closed</source>
+        <target xml:lang="pl" state="translated">Zamknięte</target>
+      </trans-unit>
+      <trans-unit id="action_type_option_default_label">
+        <source xml:lang="en-GB">Action type...</source>
+        <target xml:lang="pl" state="signed-off">Typ akcji...</target>
+      </trans-unit>
+      <trans-unit id="key_two">
+        <source xml:lang="en-GB">This is a repo sync test</source>
+        <target xml:lang="pl" state="translated">To jest test synchronizacji repozytorium</target>
+      </trans-unit>
+      <trans-unit id="untitledpage11jzley">
+        <source xml:lang="en-GB">Celebrating International Women’s Day</source>
+        <target xml:lang="pl" state="translated">Obchodzimy Międzynarodowy Dzień Kobiet</target>
+      </trans-unit>
+      <trans-unit id="untitledpage1p9gbr3">
+        <source xml:lang="en-GB">We fill the gaps when we stand as a whole.</source>
+        <target xml:lang="pl" state="translated">Wypełniamy luki, gdy stoimy jako całość.</target>
       </trans-unit>
     </body>
   </file>
